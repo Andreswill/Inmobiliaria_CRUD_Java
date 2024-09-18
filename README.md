@@ -1,6 +1,6 @@
 # Proyecto de Inmobiliaria
 
-Este proyecto es una aplicación de consola para la gestión de una inmobiliaria. Utiliza Java y estructuras de datos como `ArrayList` para manejar la información de clientes y propiedades.
+Este proyecto es una aplicación de consola con interfaz grafica para la gestión de una inmobiliaria. Utiliza Java y estructuras de datos como `ArrayList` para manejar la información de clientes y propiedades.
 
 ## Funcionalidades
 
