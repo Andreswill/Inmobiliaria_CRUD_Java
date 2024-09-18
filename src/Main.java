@@ -5,6 +5,7 @@ import view.PropiedadView;
 
 public class Main {
     public static void main(String[] args) {
+        // aqui llamamos a las vistas para que se ejecuten en el Main.
         ClienteView clienteView = new ClienteView();
         PropiedadView propiedadView = new PropiedadView();
 
@@ -12,6 +13,6 @@ public class Main {
         PropiedadController propiedadController = new PropiedadController(propiedadView, clienteView);
 
         clienteView.setVisible(true);
-        propiedadView.setVisible(false); // Puedes mostrar la vista de propiedades solo cuando el usuario navega a ella
+        propiedadView.setVisible(false); // se puede mostrar la vista de propiedades solo cuando el usuario navega a ella
     }
 }

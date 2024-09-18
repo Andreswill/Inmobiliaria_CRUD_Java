@@ -10,7 +10,7 @@ public class PropiedadView extends JFrame {
     private JButton btnRegistrarPropiedad, btnMostrarPropiedades, btnBuscarPorAlquiler, btnBuscarPorRequerimientos, btnIrAClientes;
     private JTextField txtBuscarAlquiler, txtBuscarZona, txtBuscarMaximoAlquiler;
 
-    // Colores solicitados
+    // Colores
     private final Color botonColor = Color.decode("#ff6347");
     private final Color textoColor = Color.decode("#009cb8");
 
@@ -30,7 +30,7 @@ public class PropiedadView extends JFrame {
         txtDescripcion = new JTextField();
         chkDisponible = new JCheckBox("Disponible");
 
-        // Botones con color de fondo
+        // color de fondo para los botones
         btnRegistrarPropiedad = new JButton("Registrar Propiedad");
         btnRegistrarPropiedad.setBackground(botonColor);
         btnRegistrarPropiedad.setForeground(Color.WHITE);
